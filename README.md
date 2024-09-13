@@ -1,50 +1,37 @@
-# React + TypeScript + Vite
+![Thumbnail](https://github.com/user-attachments/assets/0b1dd5c4-60a8-4ab0-a2c9-f969b16f51f4)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+# <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Compass.png" alt="Compass" width="45" height="45" /> in.orbit - Frontend
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+O in.orbit é um site desktop focado em registro de metas com acompanhamento de progresso semanal. Este é o frontend da aplicação, desenvolvido durante o evento NLW Pocket FullStack, oferecido pela Rocketseat.</br> (Não foi feito deploy do projeto pois será feito uma nova versão mais completa)
 
-## Expanding the ESLint configuration
+# <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20professions/Man%20Technologist%20Light%20Skin%20Tone.png" alt="Man Technologist Light Skin Tone" width="45" height="45" /> Tecnologias Utilizadas
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- React 18
+- Vite
+- Tailwind CSS
+- React Hook Form - Validação de formulários.
+- Zod - Validação de dados.
+- Radix UI (Dialog, Progress, Radio Group) - Componentes acessíveis.
+- React Query - Gerenciamento de estado assíncrono.
+- Lucide Icons - Ícones em SVG.
+- Day.js - Manipulação de datas.
+- Tailwind Merge e Tailwind Variants - Utilidades para estilos com Tailwind.
 
-- Configure the top-level `parserOptions` property like this:
+# <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Locomotive.png" alt="Locomotive" width="45" height="45" /> Funcionalidades
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- Registro de metas semanais.
+- Acompanhamento do progresso semanal.
+- Design responsivo e interativo.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## 🧑‍🚀 Autor
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+<p align="center">
+  <a href="https://github.com/Caiobaldudev">
+    <img src="https://github.com/Caiobaldudev.png" alt="Caio Balduino" width="80">
+  </a>
+</p>
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+<p align="center">
+  Este projeto foi desenvolvido por <strong>Caio Balduino</strong> No evento NLW Pocket FullStack da Rocketseat.
+</p>
